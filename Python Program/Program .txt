@@ -1,0 +1,21 @@
+#Return the sum of all the scores on the record
+
+
+def findScoreSum (n) :
+    ops =0
+    x = new_score
+    D = previous_score * previous_score
+    previous_score, new_score = 0, 0
+    for score in range(1, n + 1):
+        if(new_score % previous_score == 1):
+            previous_score +=1
+            new_score = Previous_score
+            
+    total += new_score
+    new_score += 1
+    print(ops)
+if __name__ == ' __main__':
+    
+    N = 8
+    
+    findScoreSum(N)
